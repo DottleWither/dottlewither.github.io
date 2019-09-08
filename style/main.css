@@ -1,0 +1,248 @@
+
+@font-face {
+ font-family: SiYuan;
+ src: "../font/SiYuan.ttf";
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding-bottom: 200px;
+}
+
+.link::before {
+	background-color: #FF5722 !important;
+	color: #FF5722 !important;
+}
+
+.mdui-appbar a {
+	color: white !important;
+	font-family: yahei;
+}
+
+#share-center {
+	position: relative;
+	top : -60px;
+	text-align: center;
+    color: white;
+
+}
+
+#share-center a {
+    transform: scale(1.2, 1.2);
+}
+
+#banner {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+}
+
+#banner-img {
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+
+#banner-title {
+	width: auto;
+	height: 0;
+	overflow: visible;
+	margin: 0 auto;
+	position: relative;
+	top: 40%;
+	text-align: center;
+}
+
+
+#banner-title span{
+	font-size: 350%;
+	font-weight: auto;
+	color: #293462;
+	font-family: 'MV Boli';
+}
+
+#address {
+	height: 500px;
+	overflow: hidden;
+}
+
+#about{
+}
+
+#main{
+}
+
+.article {
+	height: auto;
+	width: 70%;
+	max-width: 900px;
+	margin: auto auto;
+}
+
+.article h1 {
+	font-size: 300% !important;
+	font-weight: 300 !important;
+	text-align: center;
+}
+
+.article b {
+	font-size: 180%;
+	font-weight: 400 !important;
+	font-family: 'MV Boli';
+}
+
+.article p {
+	font-size: 130%;
+	color: #59768e;
+	line-height: 1.5;
+	font-weight: 350 !important;
+	text-indent: 3%;
+	font-family: 'MV Boli';
+}
+
+.article a {
+	color: #29465e;
+	text-decoration: none;
+	transition: 0.25s; 
+}
+
+.article a:hover{
+	color: #1b7fbd;
+}
+
+.orange p{
+	color:;
+}
+
+.orange a {
+	color: #29465e;
+	text-decoration: none;
+	transition: 0.25s; 
+}
+
+.orange a:hover{
+	color: #1b7fbd;
+}
+
+.share-btn-item {
+	background: rgba(255,255,255,1);
+	color: orange;
+	transition: 0.25s;
+}
+
+.share-btn-item:hover {
+	background: orange;
+	color: white !important;
+}
+
+.article_aside{
+	background-color: rgba(255,255,255,1);
+	box-shadow: 0px 0px 3px 3px #DDDDDD;
+	border-radius: 15px;
+	vertical-align: middle;
+	width: 75%;
+	max-width: 800px;
+	height: 7.5cm;
+	text-align: left;
+	overflow: hidden;
+	transition: all 0.2s;
+	margin: 0 auto;
+}
+
+.article_aside:hover{
+	box-shadow: 0px 0px 6px 6px #DDDDDD;
+}
+
+.aside_right{
+	float:right;
+	height:100%;
+	width:55%;
+	overflow: hidden;
+}
+.aside_left{
+	float:left;
+	height:100%;
+	width:55%;
+	overflow: hidden;
+}
+.aside_artical_right{
+	height:450px;
+	width:45%;
+	float: right;
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+.aside_artical_left{
+	height:auto;
+	width:45%;
+	float: left;
+	position: relative;
+	top: 5%;
+	left: 5%;
+}
+
+.article_aside h1 {
+	font-size: 200% !important;
+	font-weight: 200 !important;
+	line-height: 0.8;
+}
+
+.article_aside b {
+	font-size: 150%;
+	font-weight: 400 !important;
+	font-family: 'MV Boli';
+}
+
+.article_aside p {
+	font-size: 130%;
+	color: #59768e;
+	line-height: 1;
+	font-weight: 350 !important;
+	text-indent: 3%;
+	font-family: 'MV Boli';
+}
+
+.article_aside a {
+	color: #29465e;
+	text-decoration: none;
+	transition: 0.25s; 
+}
+
+.picture{
+	height: auto;
+	width: 100%;
+	transition: all 0.5s;
+}
+.picture:hover{ 
+	-webkit-transform: scale(1.1);
+}
+
+.small-button {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-size: 70%;
+    display: inline;
+    font-weight: normal;
+    float: right;
+}
+
+.small-button:hover {
+    background-color: blueviolet;
+    transition: 0.3s;
+}
+
+#hitokoto {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
