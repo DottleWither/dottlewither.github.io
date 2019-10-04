@@ -47,7 +47,7 @@ function updateScrollTop() {
 }
 
 function scrollAccelerator() {
-    var speed = 4.0;
+    var speed = 2.0;
     document.getElementById("banner-title").style.position = "relative";
     document.getElementById("banner-img").style.top = "50%";
     document.getElementById("banner-img").style.position = "relative";
