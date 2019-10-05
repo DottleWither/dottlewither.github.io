@@ -11,7 +11,7 @@ function getScrollProgress() {
 
 function updateHeader() {
     let progress = getScrollProgress();
-    if (progress.pixel > 840 + 64) {
+    if (progress.pixel > 560 + 64) {
         let header = document.getElementsByClassName('mdui-appbar')[0];
         header.setAttribute('style', 'background-color: white;');
         let header_a = header.getElementsByTagName('a');
