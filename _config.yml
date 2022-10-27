@@ -1,12 +1,13 @@
 remote_theme: DottleWither/cayman
-title: "flowers"
+title: flowers
 description: "heaven and earth"
 markdown: kramdown
+categories: [post]
 defaults:
   -
     scope:
-      path: "post"
+      path: post
     values:
-      layout: "post"
+      layout: post
       mathjax: true
-      category: "post"
+      category: post
