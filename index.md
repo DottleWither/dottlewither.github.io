@@ -1,6 +1,3 @@
-# dottle 
-
-heaven and earth
 
 <ul>
 {% for page in site.pages %}
