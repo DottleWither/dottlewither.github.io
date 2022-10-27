@@ -3,7 +3,9 @@
 heaven and earth
 
 <ul>
-{% for my_post in site.categories["post"] %}
-<li><a href="{{ my_post.url }}">{{ my_post.title }}</a></li>
+{% for page in site.pages %}
+  {% if page.category == "post" %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>
